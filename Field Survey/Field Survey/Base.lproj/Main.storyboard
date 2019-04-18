@@ -46,7 +46,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SEE-Id-dvh">
-                                                    <rect key="frame" x="0.0" y="15" width="50" height="50"/>
+                                                    <rect key="frame" x="10" y="15" width="50" height="50"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="50" id="7Xl-1T-DE1"/>
                                                         <constraint firstAttribute="width" constant="50" id="qt3-vg-iLC"/>
@@ -66,10 +66,10 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="SEE-Id-dvh" firstAttribute="leading" secondItem="gSK-lm-Qyw" secondAttribute="leading" id="IQl-tm-Jt8"/>
-                                                <constraint firstItem="4ZJ-32-tah" firstAttribute="leading" secondItem="SEE-Id-dvh" secondAttribute="trailing" constant="20" id="NhE-zs-yt1"/>
+                                                <constraint firstItem="SEE-Id-dvh" firstAttribute="leading" secondItem="gSK-lm-Qyw" secondAttribute="leading" constant="10" id="IQl-tm-Jt8"/>
+                                                <constraint firstItem="4ZJ-32-tah" firstAttribute="leading" secondItem="SEE-Id-dvh" secondAttribute="trailing" constant="10" id="NhE-zs-yt1"/>
                                                 <constraint firstItem="SEE-Id-dvh" firstAttribute="centerY" secondItem="gSK-lm-Qyw" secondAttribute="centerY" id="Niw-rW-OKu"/>
-                                                <constraint firstItem="DtT-OO-Veb" firstAttribute="leading" secondItem="SEE-Id-dvh" secondAttribute="trailing" constant="20" id="aaT-b6-9nu"/>
+                                                <constraint firstItem="DtT-OO-Veb" firstAttribute="leading" secondItem="SEE-Id-dvh" secondAttribute="trailing" constant="10" id="aaT-b6-9nu"/>
                                                 <constraint firstItem="4ZJ-32-tah" firstAttribute="top" secondItem="SEE-Id-dvh" secondAttribute="top" constant="5" id="jh7-jZ-Ec7"/>
                                                 <constraint firstAttribute="trailing" secondItem="DtT-OO-Veb" secondAttribute="trailing" id="jiC-Uv-CeB"/>
                                                 <constraint firstAttribute="trailing" secondItem="4ZJ-32-tah" secondAttribute="trailing" id="lnr-VZ-WL9"/>
