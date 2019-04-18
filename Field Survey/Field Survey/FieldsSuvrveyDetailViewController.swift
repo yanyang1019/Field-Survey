@@ -23,6 +23,7 @@ class FieldsSuvrveyDetailViewController: UIViewController {
         
         dateFormatter.dateStyle = .medium
         dateFormatter.timeStyle = .medium
+        self.title = "Observation"
         
         fieldsIconImageView.image = fieldsSurvey?.classification.image
         titleLable.text = fieldsSurvey?.title

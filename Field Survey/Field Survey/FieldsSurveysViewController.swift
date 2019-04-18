@@ -21,7 +21,8 @@ class FieldsSurveysViewController: UIViewController, UITableViewDelegate, UITabl
         
         dateFormatter.dateStyle = .medium
         dateFormatter.timeStyle = .medium
-        self.fieldsSurveysTableView.rowHeight = 80
+        self.fieldsSurveysTableView.rowHeight = 60
+        self.title = "Field Survey"
      
 
         // Do any additional setup after loading the view.
